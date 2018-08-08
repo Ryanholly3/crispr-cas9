@@ -1,0 +1,127 @@
+
+/* HOME PAGE */
+
+/* Top Nav Bar */
+
+.top-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 8vh;
+  background-color: black;
+  color: white;
+}
+
+.links1 {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 0;
+}
+
+.top-nav li {
+  list-style-type: none;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+/* Left Nav Bar */
+
+img {
+  height: 20%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.left-nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  top: 8vh;
+  width: 30%;
+  height: 92vh;
+  background-color: gray;
+  color: white;
+}
+
+.links2 {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+}
+
+
+.left-nav li {
+  list-style-type: none;
+  width: 100%;
+  padding: 10px;
+  background-color: blue;
+  border: solid black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+/* Main Content */
+
+.main-content {
+  margin-top: 8vh;
+  margin-left: 30%;
+}
+
+.home {
+  height: 100vh;
+  background-color: orange;
+  display: flex;
+}
+
+.background {
+  height: 100vh;
+  background-color: pink;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.dna-editing {
+  height: 100vh;
+  background-color: blue;
+  display: flex;
+}
+
+.crispr-cas9 {
+  height: 100vh;
+  background-color: red;
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+/* FOOTER */
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 8vh;
+  background-color: black;
+  color: white;
+}
+
+
+/* RESPONSIVE DESIGN - remove left nav in small screens */
+
+@media screen and (max-width:599px) {
+  .left-nav {
+    display: none;
+  }
+  .main-content {
+    margin-left: 0;
+  }
+}
