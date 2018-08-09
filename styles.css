@@ -3,11 +3,17 @@
 h1 {
   font-family: 'Patua One', cursive;
   font-size: 60px;
+  color: black;
 }
 
 h2 {
   font-family: 'Patua One', cursive;
   font-size: 40px;
+  color: black;
+}
+
+p {
+  color: black;
 }
 
 a:hover {
