@@ -10,6 +10,10 @@ h2 {
   font-size: 40px;
 }
 
+a:hover {
+  text-decoration: none;
+}
+
 /* HOME PAGE */
 
 /* Top Nav Bar */
@@ -28,6 +32,10 @@ h2 {
   border-bottom: black solid 4px;
 }
 
+.top-nav a {
+  color:white;
+}
+
 .links1 {
   display: flex;
   flex-direction: row;
@@ -43,7 +51,7 @@ h2 {
 /* Left Nav Bar */
 
 .main-left-icon {
-  height: 25%;
+  height: 150px;
   margin-top: 7%;
   margin-bottom: 7%;
 }
@@ -79,7 +87,7 @@ h2 {
   background-image: url("./images/funky-lines.png");
   background-repeat: repeat;
   color: black;
-  border: solid black;
+  border: solid black 4px;
   margin-top: 10px;
   margin-bottom: 10px;
   padding-top: 5px;
@@ -87,9 +95,18 @@ h2 {
   border-radius: 10px;
 }
 
+span {
+  padding-left: 7%;
+}
+
+.left-nav li:hover {
+  background-image: url("./images/funky-linesdark.png");
+  background-repeat: repeat;
+}
+
 /* black and white icons on left nav*/
 .black-white-icon {
-  width: 50px;
+  width: 45px;
   margin: 0;
 }
 
@@ -145,7 +162,7 @@ h2 {
 }
 
 .crispr-cas9 {
-  height: 86vh;
+  height: 93vh;
   background-color: #EDEDED;
   display: flex;
   align-items: flex-end;
@@ -177,7 +194,7 @@ footer {
 
 /* RESPONSIVE DESIGN - remove left nav in small screens */
 
-@media screen and (max-width:599px) {
+@media screen and (max-width:735px) {
   .left-nav {
     display: none;
   }
