@@ -23,7 +23,7 @@ a:hover {
   text-decoration: none;
 }
 
-/* HOME PAGE */
+/*************** INDEX.HTML PAGE *******************/
 
 /* Top Nav Bar */
 
@@ -52,11 +52,11 @@ a:hover {
   font-family: 'Patua One', cursive;
 }
 
-.top-nav li {
-  list-style-type: none;
+.top-nav a {
   margin-left: 20px;
   margin-right: 20px;
 }
+
 /* Left Nav Bar */
 
 .main-left-icon {
@@ -89,7 +89,7 @@ a:hover {
 }
 
 
-.left-nav li {
+.left-nav a {
   list-style-type: none;
   width: 100%;
   padding: 10px;
@@ -108,14 +108,13 @@ span {
   padding-left: 7%;
 }
 
-
-.left-nav li:hover {
+.left-nav a:hover {
   background-image: url("./images/funky-linesdark.png");
   background-repeat: repeat;
 }
 
-/* black and white icons on left nav*/
-.black-white-icon {
+/* Icons on left nav links */
+.nav-icon {
   width: 45px;
   margin: 0;
 }
@@ -127,6 +126,8 @@ span {
   margin-top: 7vh;
   margin-left: 30%;
 }
+
+/* Home section */
 
 .home {
   height: 93vh;
@@ -143,6 +144,9 @@ span {
   width: 350px;
 }
 
+
+/* Background Section */
+
 .background {
   height: 100vh;
   background-color: #EDEDED;
@@ -158,12 +162,13 @@ span {
   width: 100px;
 }
 
+/* DNA editing section */
+
 .dna-editing {
   height: 100vh;
   background-image: url("./images/funky-lines.png");
   background-repeat: repeat;
   display: flex;
-  flex-direction: column;
   flex-direction: column;
   padding: 5%;
   border-top: black solid 4px;
@@ -172,6 +177,8 @@ span {
 .dna-editing img {
   width: 100px;
 }
+
+/* CRISPR-cas9 section */
 
 .crispr-cas9 {
   height: 100vh;
@@ -225,7 +232,9 @@ footer {
   }
 }
 
-/* INDEX2.html*/
+/*************** INDEX2.HTML PAGE *******************/
+
+/* Main section */
 
 .main2 {
   height: 86vh;
@@ -239,6 +248,8 @@ footer {
 .row {
   height: 90%;
 }
+
+/* About me title row */
 
 .col-12 {
   display: flex;
@@ -258,6 +269,8 @@ footer {
   min-width: 257.23px;
 }
 
+/* left column */
+
 .col-5 {
   display: flex;
   flex-direction: column;
@@ -271,6 +284,8 @@ footer {
   border-radius: 20px;
   border: black 5px solid;
 }
+
+/* right column */
 
 .col-7 {
   display: flex;
