@@ -18,5 +18,10 @@ This project describes the basics of gene editing with the newly discovered gene
 
 learn-crispr-cas9.surge.sh
 
-## Screenshot of the website
-![screenshot](ScreenShot)
+## Screenshot of Wireframe
+
+![](wireframe.png)
+
+## Screenshot of Website
+
+![](screenshot.png)
