@@ -24,4 +24,4 @@ learn-crispr-cas9.surge.sh
 
 ## Screenshot of Website
 
-![](screenshot.png)
+![](screenshot)
