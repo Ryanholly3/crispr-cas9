@@ -133,6 +133,7 @@ span {
   padding: 5%;
 }
 
+
 .home img {
   width: 200px;
 }
@@ -207,4 +208,26 @@ footer {
   .main-content {
     margin-left: 0;
   }
+}
+
+/* INDEX2.html*/
+
+.main2 {
+  height: 93vh;
+  background-image: url("./images/funky-lines.png");
+  background-repeat: repeat;
+  padding: 5%;
+}
+
+.main2 img {
+  width: 200px;
+  border-radius: 20px;
+  border: black 5px solid;
+  float: left;
+  margin-right: 5%;
+  margin-top: 10%;
+}
+
+.intro {
+  margin-top: 10%;
 }
