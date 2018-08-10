@@ -6,8 +6,8 @@ This project describes the basics of gene editing with the newly discovered gene
 
 * [Atom](https://atom.io/)
 * [Google Fonts](https://fonts.google.com/)
-* [FlatIcon] (https://www.flaticon.com/)
-* [Bootstrap] (https://getbootstrap.com/)
+* [FlatIcon](https://www.flaticon.com/)
+* [Bootstrap](https://getbootstrap.com/)
 
 ## Languages used:
 
@@ -19,3 +19,4 @@ This project describes the basics of gene editing with the newly discovered gene
 learn-crispr-cas9.surge.sh
 
 ## Screenshot of the website
+![screenshot](ScreenShot)
