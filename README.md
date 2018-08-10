@@ -13,3 +13,9 @@ This project describes the basics of gene editing with the newly discovered gene
 
 * HTML
 * CSS
+
+## Deployed link
+
+learn-crispr-cas9.surge.sh
+
+## Screenshot of the website
