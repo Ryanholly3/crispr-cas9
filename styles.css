@@ -108,6 +108,7 @@ span {
   padding-left: 7%;
 }
 
+
 .left-nav li:hover {
   background-image: url("./images/funky-linesdark.png");
   background-repeat: repeat;
@@ -134,15 +135,16 @@ span {
   display: flex;
   flex-direction: column;
   padding: 5%;
+  justify-content: space-between;
 }
 
 
 .home img {
-  width: 200px;
+  width: 350px;
 }
 
 .background {
-  height: 93vh;
+  height: 100vh;
   background-color: #EDEDED;
   display: flex;
   align-items: flex-end;
@@ -157,7 +159,7 @@ span {
 }
 
 .dna-editing {
-  height: 93vh;
+  height: 100vh;
   background-image: url("./images/funky-lines.png");
   background-repeat: repeat;
   display: flex;
@@ -172,7 +174,7 @@ span {
 }
 
 .crispr-cas9 {
-  height: 93vh;
+  height: 100vh;
   background-color: #EDEDED;
   display: flex;
   align-items: flex-end;
@@ -190,6 +192,7 @@ span {
 /* FOOTER */
 
 footer {
+  font-size: 12px;
   display: flex;
   flex-direction: row;
   justify-content: center;
