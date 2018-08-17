@@ -135,7 +135,9 @@ span {
   background-repeat: repeat;
   display: flex;
   flex-direction: column;
-  padding: 5%;
+  text-align: center;
+  align-items: center;
+  padding: 5% 5% 0 5%;
   justify-content: space-between;
 }
 
@@ -151,15 +153,19 @@ span {
   height: 100vh;
   background-color: #EDEDED;
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   flex-direction: column;
-  text-align: right;
-  padding: 5%;
+  text-align: left;
+  padding: 5% 5% 0 5%;
   border-top: black solid 4px;
 }
 
 .background img {
   width: 100px;
+}
+
+.background img, .background h2 {
+  align-self: flex-start;
 }
 
 /* DNA editing section */
@@ -170,7 +176,7 @@ span {
   background-repeat: repeat;
   display: flex;
   flex-direction: column;
-  padding: 5%;
+  padding: 5% 5% 0 5%;
   border-top: black solid 4px;
 }
 
@@ -184,10 +190,10 @@ span {
   height: 100vh;
   background-color: #EDEDED;
   display: flex;
-  align-items: flex-end;
+  align-items: flex-start;
   flex-direction: column;
-  text-align: right;
-  padding: 5%;
+  text-align: left;
+  padding: 5% 5% 0 5%;
   border-top: black solid 4px;
 }
 
