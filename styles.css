@@ -137,7 +137,7 @@ span {
   flex-direction: column;
   text-align: center;
   align-items: center;
-  padding: 5% 5% 0 5%;
+  padding: 5%;
   justify-content: space-between;
 }
 
@@ -156,7 +156,7 @@ span {
   align-items: center;
   flex-direction: column;
   text-align: left;
-  padding: 5% 5% 0 5%;
+  padding: 5%;
   border-top: black solid 4px;
 }
 
@@ -176,7 +176,7 @@ span {
   background-repeat: repeat;
   display: flex;
   flex-direction: column;
-  padding: 5% 5% 0 5%;
+  padding: 5%;
   border-top: black solid 4px;
 }
 
@@ -193,7 +193,7 @@ span {
   align-items: flex-start;
   flex-direction: column;
   text-align: left;
-  padding: 5% 5% 0 5%;
+  padding: 5%;
   border-top: black solid 4px;
 }
 
